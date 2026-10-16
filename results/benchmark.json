@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "dataset": "FD001",
+      "model": "cnn",
+      "rmse_mean": 15.61,
+      "rmse_std": 0.45,
+      "score_mean": 495.07,
+      "score_std": 73.65,
+      "coverage": 0.43,
+      "seconds": 24.23
+    },
+    {
+      "dataset": "FD001",
+      "model": "linear",
+      "rmse_mean": 15.12,
+      "rmse_std": 0.09,
+      "score_mean": 395.83,
+      "score_std": 13.05,
+      "coverage": 0.88,
+      "seconds": 0.1
+    },
+    {
+      "dataset": "FD001",
+      "model": "xgboost",
+      "rmse_mean": 12.31,
+      "rmse_std": 0.23,
+      "score_mean": 217.83,
+      "score_std": 10.4,
+      "coverage": 0.78,
+      "seconds": 3.43
+    },
+    {
+      "dataset": "FD003",
+      "model": "cnn",
+      "rmse_mean": 15.65,
+      "rmse_std": 0.6,
+      "score_mean": 828.67,
+      "score_std": 122.91,
+      "coverage": 0.57,
+      "seconds": 40.9
+    },
+    {
+      "dataset": "FD003",
+      "model": "linear",
+      "rmse_mean": 16.52,
+      "rmse_std": 0.11,
+      "score_mean": 501.93,
+      "score_std": 29.96,
+      "coverage": 0.78,
+      "seconds": 0.1
+    },
+    {
+      "dataset": "FD003",
+      "model": "xgboost",
+      "rmse_mean": 12.4,
+      "rmse_std": 0.14,
+      "score_mean": 270.33,
+      "score_std": 36.38,
+      "coverage": 0.75,
+      "seconds": 3.9
+    }
+  ]
+}

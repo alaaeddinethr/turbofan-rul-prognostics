@@ -1,0 +1,46 @@
+{
+  "dataset": "FD001",
+  "window": 30,
+  "rul_cap": 125,
+  "features": [
+    "s2",
+    "s3",
+    "s4",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "n_test_engines": 100,
+  "models": {
+    "linear": {
+      "rmse": 15.09,
+      "nasa_score": 383.5,
+      "interval_80_coverage": 0.88,
+      "mean_interval_width": 45.5,
+      "train_seconds": 0.1
+    },
+    "xgboost": {
+      "rmse": 12.42,
+      "nasa_score": 220.7,
+      "interval_80_coverage": 0.81,
+      "mean_interval_width": 29.7,
+      "train_seconds": 3.5
+    },
+    "cnn": {
+      "rmse": 16.08,
+      "nasa_score": 580.1,
+      "interval_80_coverage": 0.45,
+      "mean_interval_width": 16.3,
+      "train_seconds": 34.0
+    }
+  }
+}

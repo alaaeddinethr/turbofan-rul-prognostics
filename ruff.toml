@@ -1,0 +1,6 @@
+[lint]
+select = ["E9", "F", "I", "B", "UP"]
+ignore = ["B905"]
+
+[lint.isort]
+known-first-party = ["src"]
